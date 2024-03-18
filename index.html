@@ -3,7 +3,7 @@
 <head>
     <title>HealthPick</title>
 </head>
-<body>
+<body> 
     <h1> HEALTH INSURANCE DAY </h1>
     <h2> HEALTH INSURANCE DAY </h2>
     <h3> HEALTH INSURANCE DAY </h3>
@@ -33,16 +33,98 @@
 type="text"
 id="username"
 name="username"
-placeholder="enter username">
+placeholder="enter username"
+/>
 
-
+<br><br>
 <label for="password"> Password</label>
 <input 
 type="password"
 id="password"
 name="password"
-placeholder="enter your password">
+placeholder="enter your password"
+required
+/>
 
+<br><br>
+<label for="email"> Email</label>
+<input 
+type="email"
+id="email"
+name="email"
+placeholder="enter your email"
+/>
+
+<br><br>
+<label for="Quantity"> Quantity</label>
+<input 
+type="number"
+id="Quantity"
+name="Quantity"
+min="1"
+max="11"
+/>
+
+<br><br>
+
+<label for="Phone"> Phone Number</label>
+<input 
+type="tel"
+id="Phone"
+name="Phone"
+pattern="0-9"
+minlength="11"
+maxlength="11"
+placeholder="xxx-xxx-xxx-xxx"
+/>
+<br><br>
+
+
+
+<input 
+type="checkbox"
+id="checkbox"
+name="subscribe"
+/>
+<label for="checkbox">Subscribe to news letter </label>
+<br><br>
+
+
+<input 
+type="radio"
+id="radio"
+value="male"
+/>
+<label for="radio"> Male</label>
+
+<input 
+type="radio"
+id="radio"
+value="female"
+/>
+<label for="female">Female</label>
+<br><br>
+
+<label for="date"> Date of Birth</label>
+<input 
+type="date"
+id="date"
+name="date"
+/>
+<br><br>
+
+<label for="file"> Select a file</label>
+<input 
+type="file"
+id="file"
+accept=".jpeg, .png, .jpg, .svg"
+name="file"
+/>
+<br><br>
+
+
+
+<button type="">General</button type>
 <input 
 type="submit"
 value="submit">
